@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root {
+    height: 100dvh;
+    width: 100vw;
+    overflow: hidden;
+    overscroll-behavior: none;
+    background-color: #09090b;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+}
